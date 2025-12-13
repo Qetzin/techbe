@@ -1,4 +1,4 @@
-import { Features } from '@/components/homepage/features';
+import  Features  from '@/components/homepage/features';
 
 export default function HomePage(){
     return(<main className="bg-white">
