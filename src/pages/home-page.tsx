@@ -1,4 +1,5 @@
 import  Features  from '@/components/homepage/features';
+import Hero from '@/components/homepage/hero.js';
 import Intro from '@/components/homepage/intro';
 import { useEffect } from 'react';
 //@ts-expect-error - missing type declarations
@@ -18,6 +19,7 @@ export default function HomePage(){
 
     return(<main className="bg-white">
         <title>Techbe</title>
+        <Hero />
         <Features />
         <Intro />
     </main>);
